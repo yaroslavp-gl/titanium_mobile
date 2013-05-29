@@ -8,6 +8,8 @@ description: |
     of your Titanium application: 
 
     * `http://tizen.org/privilege/contact.read`
+
+    This is a public-level privilege.
     
 extends: Titanium.Proxy
 since: "1.4.0"
@@ -22,6 +24,8 @@ methods:
 
         * `http://tizen.org/privilege/contact.read`
         * `http://tizen.org/privilege/contact.write`
+
+        These are public-level privileges.
         
     parameters:
       - name: person
@@ -42,6 +46,8 @@ methods:
 
         * `http://tizen.org/privilege/contact.read`
         * `http://tizen.org/privilege/contact.write`
+
+        These are public-level privileges.
         
     parameters:
       - name: person

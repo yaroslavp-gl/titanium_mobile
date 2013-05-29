@@ -10,6 +10,8 @@ description: |
 
     * `http://tizen.org/privilege/contact.read`
 
+    This is a public-level privilege.
+
 since: "3.1.0"
 platforms: [tizen]
 

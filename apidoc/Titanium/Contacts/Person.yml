@@ -41,6 +41,8 @@ description: |
     For read-write access to contacts, you must also include:
     
     * `http://tizen.org/privilege/contact.write`
+
+    These are public-level privileges.
     
 extends: Titanium.Proxy
 since: "0.8"

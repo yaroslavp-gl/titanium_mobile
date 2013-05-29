@@ -9,6 +9,8 @@ description: |
     file of your Titanium application: 
 
     * `http://tizen.org/privilege/contact.read`
+
+    This is a public-level privilege.
     
 extends: Titanium.Module
 since: 3.1.0

@@ -61,6 +61,8 @@ properties:
 
         * `http://tizen.org/privilege/application.launch`
 
+        This is a public-level privilege.
+
     type: Number
     platforms: [android, tizen]
     

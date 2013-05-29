@@ -39,7 +39,8 @@ methods:
         in the `tiapp.xml` file of your Titanium application: 
 
         * `http://tizen.org/privilege/application.launch`
-        
+
+        This is a public-level privilege.
     parameters:
       - name: properties
         summary: |

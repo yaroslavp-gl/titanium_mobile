@@ -23,6 +23,8 @@ methods:
 
         * `http://tizen.org/privilege/application.launch`
 
+        This is a public-level privilege.
+
 events:
   - name: complete
     summary: Fired when this SMS dialog has completed sending a SMS.

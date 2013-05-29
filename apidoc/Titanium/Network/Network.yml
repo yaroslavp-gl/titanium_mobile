@@ -11,14 +11,7 @@ description: |
     [BonjourService](Titanium.Network.BonjourService) objects.
 
     For all other socket needs, use <Titanium.Network.Socket.TCP>.
-    
-    To use this API on Tizen, you must include the following privilege in the `tiapp.xml` 
-    file of your Titanium application: 
-
-    * `http://tizen.org/privilege/system`
-
-    This is a public-level privilege.
-    
+        
 extends: Titanium.Module
 since: "0.1"
 methods:

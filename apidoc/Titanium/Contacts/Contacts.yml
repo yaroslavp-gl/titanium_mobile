@@ -43,7 +43,8 @@ methods:
 
         * `http://tizen.org/privilege/contact.read`
         * `http://tizen.org/privilege/contact.write`
-        
+
+        These are public-level privileges.       
     returns:
         type: Titanium.Contacts.Group
     platforms: [iphone, ipad, tizen]
@@ -65,7 +66,8 @@ methods:
 
         * `http://tizen.org/privilege/contact.read`
         * `http://tizen.org/privilege/contact.write`
-        
+
+        These are public-level privileges.        
     returns:
         type: Titanium.Contacts.Person
     platforms: [android, ipad, iphone, tizen]
@@ -85,7 +87,8 @@ methods:
         of your Titanium application: 
 
         * `http://tizen.org/privilege/contact.read`
-        
+
+        This is a public-level privilege.
     returns:
         type: Array<Titanium.Contacts.Group>
     platforms: [ipad, iphone, tizen]
@@ -107,7 +110,8 @@ methods:
         of your Titanium application: 
 
         * `http://tizen.org/privilege/contact.read`
-        
+
+        This is a public-level privilege.
     returns:
         type: Titanium.Contacts.Group
     platforms: [iphone, ipad, tizen]
@@ -137,7 +141,8 @@ methods:
         of your Titanium application: 
 
         * `http://tizen.org/privilege/contact.read`
-        
+
+        This is a public-level privilege.
     returns:
         type: Titanium.Contacts.Person
     parameters:
@@ -155,7 +160,8 @@ methods:
 
         * `http://tizen.org/privilege/contact.read`
         * `http://tizen.org/privilege/contact.write`
-        
+
+        These are public-level privileges.
     platforms: [iphone, ipad, tizen]
     parameters:
       - name: group
@@ -183,7 +189,8 @@ methods:
 
         * `http://tizen.org/privilege/contact.read`
         * `http://tizen.org/privilege/contact.write`
-        
+
+        These are public-level privileges.
     platforms: [android, iphone, ipad, tizen]
     since: {android: "2.1.0"}
     parameters:
@@ -203,7 +210,8 @@ methods:
 
         * `http://tizen.org/privilege/contact.read`
         * `http://tizen.org/privilege/contact.write`
-        
+
+        These are public-level privileges.
     platforms: [android, iphone, ipad, tizen]
     parameters:
       - name: contacts
@@ -224,7 +232,8 @@ methods:
         of your Titanium application: 
 
         * `http://tizen.org/privilege/contact.read`
-        
+
+        This is a public-level privilege.
     parameters:
       - name: params
         summary: Argument containing parameters for this method. Optional on Android.

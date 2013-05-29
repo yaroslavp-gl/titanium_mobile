@@ -79,6 +79,8 @@ methods:
         * `http://tizen.org/privilege/application.launch`
         * `http://tizen.org/privilege/filesystem.read`
 
+        These are public-level privileges.
+
         From the `options` parameter, only the `success` and `error` fields are used. 
         
     platforms: [iphone, ipad, android, tizen]
@@ -116,6 +118,8 @@ methods:
         * `http://tizen.org/privilege/filesystem.read`
         * `http://tizen.org/privilege/filesystem.write`
 
+        These are public-level privileges.
+
         From the `options` parameter, only the `success` and `error` fields are used.
         
     platforms: [iphone, ipad, tizen]
@@ -149,6 +153,8 @@ methods:
         in the `tiapp.xml` file of your Titanium application: 
 
         * `http://tizen.org/privilege/application.launch`
+        
+        This is a public-level privilege.
 
         From the `options` parameter, only the `success` and `error` fields are used. 
         
